@@ -1,0 +1,39 @@
+html{
+	
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td, th{
+	width: 200px;
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+td:nth-child(1){  
+	text-align: left;
+}
+td:nth-child(2){  
+	text-align: center;
+}
+td:nth-child(3){  
+	text-align: right;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+button:focus{outline:0;}
+.paginationLinks{
+	width: 35px;
+	height:35px;
+	background: white;
+	//border: 1px solid #ddd;
+	color: #111;
+	font-size:14px;
+}
+.activeButton{
+	background:#999;
+	color:white;
+}
